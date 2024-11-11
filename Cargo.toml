@@ -1,7 +1,11 @@
 [package]
 name = "testgtk"
+authors = ["Valery Shvargonov"]
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/shvargon/adwaita-rust-skeleton"
+keywords = ["adwaita", "gtk4", "GUI", "skeleton"]
+license = "MIT"
 
 [dependencies]
 adw = { version = "0.7.1", package = "libadwaita", features = ["v1_5"] }
