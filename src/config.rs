@@ -1,0 +1,1 @@
+pub static APP_ID: &str = "org.example.MyApp";

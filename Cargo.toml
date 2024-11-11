@@ -1,0 +1,12 @@
+[package]
+name = "testgtk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+adw = { version = "0.7.1", package = "libadwaita", features = ["v1_5"] }
+
+[dependencies.gtk]
+package = "gtk4"
+version = "0.9.3"
+features = ["v4_14"]
